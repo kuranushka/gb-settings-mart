@@ -9,3 +9,12 @@ spring.datasource:
 spring:
   jpa:
     generate-ddl: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+
+
+#  spring.jpa.defer-datasource-initialization=true
+#  spring.jpa.generate-ddl=true
+#  spring.sql.init.mode=always
