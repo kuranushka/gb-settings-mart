@@ -1,8 +1,3 @@
-spring:
-  artemis:
-    user: artemis
-    password: simetraehcapa
-
 #gb.api:
 #  endpoint:
 #    manufacturer-url: 'http://${gb.api.endpoint.base-uri}/api/v1/manufacturer'
