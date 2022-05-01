@@ -30,4 +30,4 @@ spring:
 jms:
   order:
     changed:
-      queue: 'order_changed!'
+      queue: "order_changed!"
