@@ -1,6 +1,6 @@
 gb.api:
   endpoint:
-    base-uri: '/external'
+#    base-uri: '/external'
     productUrl: 'http:8080/api/v1/product'
     categoryUrl: 'http://api/v1/category'
     manufacturer-url: 'http:/api/v1/manufacturer'
