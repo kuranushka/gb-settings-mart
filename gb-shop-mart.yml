@@ -8,6 +8,3 @@ spring.datasource:
 spring:
   jpa:
     generate-ddl: true
-  artemis:
-    user: artemis
-    password: simetraehcapa

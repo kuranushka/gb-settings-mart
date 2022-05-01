@@ -1,3 +1,7 @@
+spring:
+  artemis:
+    user: artemis
+    password: simetraehcapa
 
 #gb.api:
 #  endpoint:
