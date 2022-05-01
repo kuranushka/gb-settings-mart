@@ -27,3 +27,7 @@ spring:
   artemis:
     user: artemis
     password: simetraehcapa
+jms:
+  order:
+    changed:
+      queue: 'order_changed!'
