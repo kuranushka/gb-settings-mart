@@ -1,18 +1,9 @@
 gb.api:
   endpoint:
     base-uri: '127.0.0.1:8080'
-#    productUrl: 'http://${gb.api.endpoint.base-uri}/api/v1/product'
-#    categoryUrl: 'http://${gb.api.endpoint.base-uri}/api/v1/category'
-#    manufacturer-url: 'http://${gb.api.endpoint.base-uri}/api/v1/manufacturer'
-#  connection:
-#    connectTimeout: 60 # Seconds
-#    readTimeout: 10 # Seconds
-#    period: 3000 # Millis
-#    maxPeriod: 5000 # Millis
-#    maxAttempts: 3
-gb-external-api:
-  url:
-    product: localhost:8080/api/v1/product
+#gb-external-api:
+#  url:
+#    product: localhost:8080/api/v1/product
 server:
   port: 8081
     
