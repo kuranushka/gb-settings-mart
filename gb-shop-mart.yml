@@ -1,5 +1,8 @@
 
 server:
+  artemis:
+    user: artemis
+    password: simetraehcapa
   port: 8080
 spring.datasource:
   url: "jdbc:postgresql://localhost:5432/gb_shop"
