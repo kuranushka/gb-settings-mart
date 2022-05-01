@@ -1,5 +1,7 @@
 gb.api:
   endpoint:
+    productUrl: 'http://${gb.api.endpoint.base-uri}/api/v1/product'
+    categoryUrl: 'http://${gb.api.endpoint.base-uri}/api/v1/category'
     manufacturer-url: 'http://${gb.api.endpoint.base-uri}/api/v1/manufacturer'
   connection:
     connectTimeout: 60 # Seconds
