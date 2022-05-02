@@ -27,9 +27,4 @@ spring:
   artemis:
     user: artemis
     password: simetraehcapa
-gb-jms:
-  orderQueue: 'order_queue'
-#jms:
-#  order:
-#    changed:
-#      queue: "order_changed!"
+gb-jms.properties.order.queue.changed: order_changed
