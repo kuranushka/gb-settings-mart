@@ -38,13 +38,11 @@ spring:
   artemis:
     user: artemis
     password: simetraehcapa
-#gb-jms:
-#  properties:
-#    order:
-#      queue:
-#        message:
-#          from: kuranov3000@gmail.com
-#          subject: ORDER WAS CHANGED
-#          text: order was changed
-#        link: order_changed
+gb-jms:
+  properties:
+    message:
+      from: kuranov3000@gmail.com
+      subject: ORDER WAS CHANGED
+      text: order was changed
+      link: order_changed
 
